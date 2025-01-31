@@ -1,7 +1,7 @@
-# Hi there 👋 I'm Ghaithzoaiter
-[![GitHub Followers](https://img.shields.io/github/followers/yourusername?label=Follow%20Me&style=social)](https://github.com/yourusername)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/yourprofile/)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?logo=twitter)](https://twitter.com/yourhandle)
+# Hi there 👋 I'm Ghaith zoaiter
+[![GitHub Followers](https://img.shields.io/github/followers/yourusername?label=Follow%20Me&style=social)](https://github.com/Ghaithzoaiter)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/Ghaithzoaiter/)
+[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?logo=twitter)](https://twitter.com/Ghaithzoaiter)
 
 ---
 
@@ -46,6 +46,6 @@
 ### 📬 Let's Connect
 - 💼 [LinkedIn](https://www.linkedin.com/in/yourprofile/)  
 - 🐦 [Twitter](https://twitter.com/yourhandle)  
-- ✉️ [Email](mailto:your.email@example.com)  
+- ✉️ [Email](mailto:ghaith.zoaiter@gmail.com)  
 
-⭐️ From [Your Name](https://github.com/yourusername)
+⭐️ From [Ghaith zoaiter](https://github.com/Ghaithzoaiter)
