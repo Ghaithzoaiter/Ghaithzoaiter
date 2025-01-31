@@ -1,7 +1,7 @@
 # Hi there 👋 I'm Ghaith zoaiter
 [![GitHub Followers](https://img.shields.io/github/followers/yourusername?label=Follow%20Me&style=social)](https://github.com/Ghaithzoaiter)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/Ghaithzoaiter/)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?logo=twitter)](https://twitter.com/Ghaithzoaiter)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/ghaith-zezo/)
+[![X](https://img.shields.io/badge/Twitter-Follow-1DA1F2?logo=twitter)](https://x.com/Ghaith_zoaiter)
 
 ---
 
@@ -10,7 +10,7 @@
 - 🌱 Learning **React, Three.js, And more...**.  
 - 👯 Looking to collaborate wiht **you**.  
 - 🤖 loves to experiment with new **technologies.**
-- 📫 How to reach me: **your.email@example.com**  
+- 📫 How to reach me: **ghaith.zoaiter@gmail.com**  
 
 ---
 
@@ -34,17 +34,9 @@
 
 ---
 
-### 🚀 Featured Projects
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| [Project 1](link) | A brief description. | ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) |
-| [Project 2](link) | Another cool project. | ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white) |
-
----
-
 ### 📬 Let's Connect
-- 💼 [LinkedIn](https://www.linkedin.com/in/yourprofile/)  
-- 🐦 [Twitter](https://twitter.com/yourhandle)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/ghaith-zezo/)  
+- 🐦 [X](https://x.com/Ghaith_zoaiter)  
 - ✉️ [Email](mailto:ghaith.zoaiter@gmail.com)  
 
 ⭐️ From [Ghaith zoaiter](https://github.com/Ghaithzoaiter)
