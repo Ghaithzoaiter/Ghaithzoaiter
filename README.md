@@ -1,4 +1,4 @@
-# Hi there 👋 I'm Ghaith zoaiter
+# Hi there 👋 I'm Mohammed Ghaith zoaiter
 [![GitHub Followers](https://img.shields.io/github/followers/yourusername?label=Follow%20Me&style=social)](https://github.com/Ghaithzoaiter)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/ghaith-zezo/)
 [![X](https://img.shields.io/badge/Twitter-Follow-1DA1F2?logo=twitter)](https://x.com/Ghaith_zoaiter)
