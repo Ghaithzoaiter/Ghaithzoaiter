@@ -19,12 +19,14 @@
 ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=white)
-
+![C#](https://img.shields.io/badge/C%23-69207A?logo=c-sharp&logoColor=white&style=flat)
 
 #### Frameworks
-![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?logo=three.js&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white&style=flat)
+![3JS](https://img.shields.io/badge/Three.js-000000?logo=three.js&logoColor=white&style=flat)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white&style=flat)
+![RN](https://img.shields.io/badge/React_Native-282C34?logo=react&logoColor=61DAFB&style=flat)
 
 ---
 
