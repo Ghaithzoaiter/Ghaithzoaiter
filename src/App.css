@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+@import "tailwindcss";
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+
+  --main-color : #00BFFF;
+  --second-color : #2196f3;
+}
+
+*{
+  font-family: "Merriweather", serif;
+}
+
+body {
+  background: radial-gradient(circle at center, #111 0%, #000 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.book-container{
+  perspective: 2000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  align-items: center;  
+  transition: transform 0.5s ease;
+  transition: all 0.4s ease;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: cardEnter 0.5s ease forwards;
+}
+.realistic-book {
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+.page {  
+  background: linear-gradient(120deg, #fdfcfb 0%, #e2d1c3 100%);
+  color: #222;
+  position: relative;
+  overflow: hidden;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 10%;
+  width: 80%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0.03) 40%,
+    transparent 100%
+  );
+  pointer-events: none;
+  transform: skewX(-10deg);
+}
+.page-content {
+  padding: 40px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+.front-cover {
+  background: linear-gradient(160deg, #242424, #101010);
+  color: #00ffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: inset 0 0 20px rgba(0, 255, 255, 0.2);
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.page:nth-child(even) {
+  box-shadow: inset -10px 0 20px rgba(0, 0, 0, 0.2);
+}
+.page:nth-child(odd) {
+  box-shadow: inset 10px 0 20px rgba(0, 0, 0, 0.15);
+}
+.about-me {
+  font-size: 1rem;
+  line-height: 1.8;
+  width: 100%;                  
+  height: 150px;
+  margin:  auto;
+  text-align: left;
+  padding: 5px 5px;
+  border-radius: 10px;
+  cursor: default;
+    transition: transform 0.5s ease;
+  transition: all 0.4s ease;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: cardEnter 2s ease forwards;
+}
+html, body {
+  font-family: "Merriweather", serif;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex: 1 1 0;
+  flex-wrap: wrap;
+}
+.my_photo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 25%;
+  margin-bottom: 20px;
+  border: 4px solid var(--main-color);
+  box-shadow: 0 4px 15px rgba(0, 255, 255, 0.808);
+  transition: transform 0.5s ease;
+  transition: all 0.4s ease;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: cardEnter 2s ease forwards;
+} 
+.my_photo:hover {
+  transform: scale(1.1);
+}
+.front-cover h1{
+  font-size: 2.5rem;
+  margin:0;
+    transition: transform 0.5s ease;
+  transition: all 0.4s ease;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: slideInText 2s ease forwards;
+}
+.front-cover p{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  margin: 15px;
+    transition: transform 0.5s ease;
+  transition: all 0.4s ease;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: description 2s ease forwards;
+}
+@keyframes slideInText {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.page h2{
+  font-size: 2rem;
+  text-align: left;
+  margin: auto;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: black;
+  transition: all 0.4s ease;
+  opacity: 0;
+  animation: slideInText 2.5s ease forwards;
+  cursor: default;
+}
+.page ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left; 
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  
+}
+.page ul li{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 25px 15px;
+  width: calc(50% - 20px);
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 45%;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgba(255, 0, 0, 0.05);
+  border: 2px solid black;
+  color: black;
+  cursor: default;
+  transition: all 0.4s ease;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: cardEnter 0.8s ease forwards;
+}
+.page .back-cover ul li{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 25px 15px;
+  width: calc(50% - 20px);
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgba(255, 0, 0, 0.05);
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: cardEnter 0.8s ease forwards;
+}
+
+@keyframes cardEnter {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.page ul li {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: cardEnter 0.9s ease forwards;
+}
+
+.page ul li:nth-child(1) { animation-delay: 0.1s; }
+.page ul li:nth-child(2) { animation-delay: 0.3s; }
+.page ul li:nth-child(3) { animation-delay: 0.5s; }
+.page ul li:nth-child(4) { animation-delay: 0.7s; }
+.page ul li:nth-child(5) { animation-delay: 0.9s; }
+.page ul li:nth-child(6) { animation-delay: 1.1s; }
+.page ul li:nth-child(7) { animation-delay: 1.3s; }
+.page ul li:nth-child(8) { animation-delay: 1.5s; }
+
+.page .social-icons  li:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 5px #0000003f;
+  border: #ffffff 2px solid;
+  background: #111;
+  border-radius: 35%;
+  color: white;
+  box-shadow: 1px 10px 20px black;
+  transition: 0.3s ease;
+  transform: scale(1.2) rotate(15deg);
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+.page i {
+  font-size: 35px;
+  margin-bottom: 12px;
+  color: black;
+  transition: color 0.3s ease;
+}
+.page .social-icons  li:hover i {
+  color: #fff;
+  transform: rotate(360deg);
+  transition: transform 0.6s ease;
+}
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; 
+  box-shadow: 0 4px 15px black;
+  margin-top: 10px;
+  border: black 2px solid;
+  object-fit: cover;   
+  filter: grayscale(1);
+  transition: all 0.4s ease;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  animation: cardEnter 4s ease forwards;
+}
+.project-image:hover {
+  transform: scale(2.05);
+  box-shadow: 10px 8px 25px #000000;
+  filter: grayscale(0);
+}
+.progject-titles {
+  font-size: 1rem;
+  text-align: left;
+  margin-top: 25px;
+  padding: 1px 5px;
+  color: #2b2c2ca2;
+  transition: all 0.4s ease;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: description 2s ease forwards;
+  cursor: default;
+} 
+.project-description {
+  font-size: 0.9rem;
+  text-align: left;
+  
+  margin: 10px 0px;
+  padding: 5px 5px;
+  color: #000000d0;
+  
+  cursor: default;
+  transition: all 0.4s ease;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: description 2s ease forwards;
+}
+
+
+@keyframes description {
+  0% {
+    opacity: 0;
+    transform: translateX(-400px);
+    
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+    
+  }
+}
+.button {
+  display: inline-block;
+  margin: 8px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  border-radius: 10px;
+  border: 2px  solid black ;
+  font-size: 14px;
+  font-weight: 600;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: button 1.5s ease forwards;
+}
+.button:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 10px 25px black;
+  border: 2px  solid rgb(255, 255, 255) ;
+  background: #000000;
+  color: rgb(255, 255, 255);
+}
+.button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.5),
+    transparent);
+    transition: all 0.6s ease;
+  }
+  .button:hover::after {
+    left: 100%;
+  }
+  @keyframes button {
+    0% {
+      opacity: 0;
+      transform: translateY(300px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  /* @media (max-width: 768px) {
+    .flip-book {
+      width: 90vw !important;
+      height: 70vh !important;
+    }
+    .page {
+      font-size: 0.8rem;
+      padding: 15px;
+    }
+    .page h1 {
+      font-size: 1.4rem;
+    }
+  }
+  @media (max-width: 480px) {
+    .flip-book {
+      width: 95vw !important;
+      height: 65vh !important;
+    }
+    .page {
+      font-size: 0.85rem;
+      padding: 10px;
+    }  
+    .page h1 {
+      font-size: 1.2rem;
+    }
+  } */
