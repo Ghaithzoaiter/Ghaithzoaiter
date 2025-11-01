@@ -49,7 +49,6 @@ const Book = () => {
             alt="My Photo"
             className="my_photo"
             />
-          <i className="ico" class="fa-solid fa-code"></i>
           <h1>Ghaith Zoaiter</h1>
           <p>FrontEnd Developer
           </p>
@@ -255,5 +254,6 @@ It features a clean layout and a fully responsive design.
     </div>
   );
 };
+
 
 export default Book;
